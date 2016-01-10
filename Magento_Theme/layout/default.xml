@@ -13,14 +13,12 @@
                 <argument name="logo_img_height" xsi:type="number">59</argument>
             </arguments>
         </referenceBlock>
-        <referenceContainer name="footer">
-            <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="switch/stores.phtml"/>
-            <referenceBlock name="form.subscribe" remove="true"/>
-        </referenceContainer>
         <referenceBlock name="report.bugs" remove="true"/>
         <referenceBlock name="copyright" remove="true"/>
         <referenceBlock name="header.panel" remove="true" />
         <referenceBlock name="top.search" remove="true" />
         <referenceBlock name="minicart" remove="true" />
+        <referenceBlock name="store.links" remove="true" />
+        <referenceBlock name="form.subscribe" remove="true"/>
     </body>
 </page>

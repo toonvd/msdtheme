@@ -1,0 +1,13 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="product.info.review" remove="true"/>
+        <referenceBlock name="product.info.extrahint" remove="true"/>
+        <referenceBlock name="render.product.prices" remove="true"/>
+        <referenceBlock name="product.info.type" remove="true"/>
+        <referenceBlock name="product.info.type" remove="true"/>
+        <referenceBlock name="product.info.sku" remove="true"/>
+        <referenceBlock name="product.price.final" remove="true"/>
+        <referenceBlock name="product.price.tier" remove="true"/>
+    </body>
+</page>

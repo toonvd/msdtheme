@@ -20,5 +20,8 @@
         <referenceBlock name="minicart" remove="true" />
         <referenceBlock name="store.links" remove="true" />
         <referenceBlock name="form.subscribe" remove="true"/>
+        <referenceBlock name="navigation.sections" remove="true" />
+        <referenceBlock name="catalog.compare.link" remove="true" />
+        <referenceBlock name="breadcrumbs" remove="true" />
     </body>
 </page>
